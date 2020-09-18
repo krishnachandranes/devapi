@@ -24,8 +24,7 @@ public class CountyServiceImpl implements CountyService{
 
 	@Override
 	public County save(County county) {
-		// TODO Auto-generated method stub
-		return null;
+		return countyRepo.save(county);
 	}
 
 	@Override
